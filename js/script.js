@@ -15,8 +15,6 @@ const portfolioNavbar = document.querySelector(".portfolio__lists.nav-list");
 const portfolioLinks = portfolioNavbar.children;
 const imageBlock = document.querySelector(".portfolio__image-block");
 
-console.log(imageBlock.children[0])
-
 for (let link of portfolioLinks) {
    link.addEventListener("click", () => {
       removeActiveLink();
